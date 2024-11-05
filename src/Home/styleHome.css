@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
+
+html{box-sizing: border-box;} ::before,*::after{box-sizing: inherit;}
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+html, body 
+{ 
+ height: 100vh;
+ overflow-x: hidden
+}
+
+/* src/pages/Home.css */
+
+.conteiner-palavra {
+    position: absolute; /* Coloca o container de palavras sobre a imagem */
+    top: 32%; /* Centraliza verticalmente */
+    left: 16%; /* Centraliza horizontalmente */
+    display: flex;
+    font-family: 'Titillium Web';
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    justify-content: flex-start;
+    transform: translate(-50%, -50%); /* Centraliza exatamente no meio */
+    text-align: center;
+    color: white; /* Torna o texto visível sobre a imagem */
+    z-index: 1; /* Garante que o texto esteja acima da imagem */
+  }
+  
+  .estatico {
+    color: #228B22;
+    font-size: 5em;
+    margin-right: 10%;
+  }
+  
+  .dinamico {
+    list-style: none;
+    font-family: "Aclonica";
+    margin-top: 10%;
+    padding: 0;
+    font-size: 5em;
+  }
+  
+  .dinamico li {
+    position: absolute;
+    opacity: 0;
+    animation: fadeWords 4s infinite;
+  }
+  
+  .dinamico li:nth-child(1) {
+    animation-delay: 1s;
+  }
+  
+  /* Configura o segundo item (Sexual) para aparecer após o primeiro */
+  .dinamico li:nth-child(2) {
+    animation-delay: 2s;
+  }
+  
+  @keyframes fadeWords {
+    0%, 50% { opacity: 0; }   /* Palavra invisível na primeira metade */
+    25%, 75% { opacity: 1; }  /* Palavra visível no meio do ciclo */
+  }
+  .frase{
+    position: absolute; /* Coloca o container de palavras sobre a imagem */
+    top: 47%; /* Centraliza verticalmente */
+    left: 24%; /* Centraliza horizontalmente */
+    display: flex;
+    font-family: 'Titillium Web';
+    font-size: 2em;
+    font-weight: bold;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    justify-content: flex-start;
+    transform: translate(-50%, -50%); /* Centraliza exatamente no meio */
+    text-align: left;
+    color: white; /* Torna o texto visível sobre a imagem */
+    z-index: 1; /* Garante que o texto esteja acima da imagem */
+  }
+  
