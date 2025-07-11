@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+html{box-sizing: border-box;} ::before,*::after{box-sizing: inherit;}
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+html, body 
+{ 
+ height: 100vh;
+ overflow-x: hidden
+}
+
+.cabecalho {
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+}
+  
+.navbar-menu {
+    padding: 0; 
+    margin: 0;
+    display: flex;
+    gap: 6rem;
+}
+  
+.navbar-item {
+    margin: 0 0.5rem;
+    font-family: 'Poppins';
+    font-size: 1.3rem;
+    color: #ffffff; 
+}
+
+.navbar-item a {
+    color: inherit; /* Herda a cor definida em .navbar-item*/
+}
+
+.navbar-item a:hover {
+    color: #FD6636;
+}
+
+.navbar{
+    position: relative;
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-position: top center; 
+    height: 100vh; 
+    max-width: 100%;
+    padding: 0; 
+    border: none; 
+    margin: 0;
+   }
+
+.menu-toggle {
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 22px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  z-index: 999;
+}
+
+.hamburger {
+  height: 4px;
+  width: 100%;
+  background-color: white;
+  border-radius: 2px;
+}
+
+/* Estilos mobile */
+@media (max-width: 768px) {
+  .cabecalho {
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 1rem;
+  }
+
+  .menu-toggle {
+    display: flex;
+  }
+
+  .navbar-menu {
+    flex-direction: column;
+    gap: 1.2rem;
+    display: none;
+    margin-top: 1rem;
+    width: 100%;
+  }
+
+  .navbar-menu.ativo {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.8); /* fundo escuro semi-transparente */
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    z-index: 10;
+  }
+
+  .navbar-item {
+    font-size: 1.1rem;
+    padding-left: 0.5rem;
+  }
+}
