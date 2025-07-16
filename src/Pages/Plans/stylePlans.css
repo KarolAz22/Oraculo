@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
+
+.planos-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+}
+
+.titulo {
+  color: #f55f5f;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 24px;
+}
+
+.email-box {
+  background-color: #228B22;
+  color: white;
+  font-weight: bold;
+  border-radius: 25px;
+  padding: 10px 20px;
+  display: inline-block;
+  margin-bottom: 40px;
+  font-size: 20px;
+}
+
+.plano-card {
+  background-color: #ffe3dd;
+  padding: 30px 20px;
+  border-radius: 12px;
+  margin-bottom: 24px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.nome-plano {
+  font-size: 40px;
+  color: #228B22;
+  margin-bottom: 16px;
+  font-family: 'Aclonica';
+}
+
+.descricao {
+  font-size: 25px;
+  color: #F8835E;
+  margin-bottom: 12px;
+}
+
+.preco {
+  font-size: 30px;
+  font-weight: bold;
+  color: #228B22;
+}

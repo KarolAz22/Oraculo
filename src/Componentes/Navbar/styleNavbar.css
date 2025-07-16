@@ -17,10 +17,10 @@ html, body
 }
 
 .cabecalho {
-    padding: 1rem;
+    padding: 3rem;
     display: flex;
     justify-content: start;
-    margin-left: 8%;
+    margin-left: 6.5%;
 }
   
 .navbar-menu {
