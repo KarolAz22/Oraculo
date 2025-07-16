@@ -1,7 +1,7 @@
 import React from 'react';
 import './styleCard.css';
 
-const Card = ({ imagem, nome, especialidade, endereco, cidadeEstado, whatsappLink }) => {
+const Card = ({ imagem, nome, especialidade, endereco, cidadeEstado, link, icone }) => {
   return (
     <div className="card">
       <img src={imagem} alt={`Imagem de ${nome}`} className="card-image" />
@@ -14,12 +14,9 @@ const Card = ({ imagem, nome, especialidade, endereco, cidadeEstado, whatsappLin
           <p>{cidadeEstado}</p>
         </div>
 
-        {whatsappLink && (
-          <a href={whatsappLink} target="_blank" rel="noopener noreferrer" className="whatsapp-icon">
-            <img
-              src="https://cdn-icons-png.flaticon.com/512/1384/1384023.png"
-              alt="WhatsApp"
-            />
+        {link && (
+          <a href={link} target="_blank" rel="noopener noreferrer" className="icon">
+            <img src={icone} alt="Ícone de ação" />
           </a>
         )}
       </div>

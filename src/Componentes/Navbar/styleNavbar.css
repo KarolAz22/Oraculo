@@ -19,7 +19,8 @@ html, body
 .cabecalho {
     padding: 1rem;
     display: flex;
-    justify-content: center;
+    justify-content: start;
+    margin-left: 8%;
 }
   
 .navbar-menu {

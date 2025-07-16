@@ -22,7 +22,7 @@ const Navbar = ({ backgroundImage }) => {
             </button>
             <ul className={`navbar-menu ${menuAberto ? 'ativo' : ''}`}>
                 <li className="navbar-item"><a href="/">Página Inicial</a></li>
-                <li className="navbar-item"><a href="/professionais">Profissionais</a></li>
+                {/*<li className="navbar-item"><a href="/professionais">Profissionais</a></li>*/}
                 <li className="navbar-item"><a href="/stores">Lojas</a></li>
                 <li className="navbar-item"><a href="/plans">Planos</a></li>
                 <li className="navbar-item"><a href="/about">Sobre-nós</a></li>
