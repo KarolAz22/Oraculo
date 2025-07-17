@@ -8,11 +8,11 @@ const AboutUs = () => {
     <div>
       <div className="hero-section">
         <Navbar backgroundImage={backgroundImageAboutUs} />
-        <div className="conteiner-palavra">
+        <div className="word-container">
           <div className="static3">Oráculo</div>
         </div>
         <div>
-          <span className="frase">
+          <span className="phrase">
             Empoderamento, saúde <br /> e bem-estar{" "}
           </span>
         </div>

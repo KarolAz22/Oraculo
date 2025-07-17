@@ -16,7 +16,7 @@ html, body
  overflow-x: hidden
 }
 
-.cabecalho {
+.header {
     padding: 3rem;
     display: flex;
     justify-content: start;
@@ -78,7 +78,7 @@ html, body
 
 /* Estilos mobile */
 @media (max-width: 768px) {
-  .cabecalho {
+  .header {
     flex-direction: column;
     align-items: flex-end;
     padding: 1rem;

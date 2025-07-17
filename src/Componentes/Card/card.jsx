@@ -1,22 +1,22 @@
 import React from 'react';
 import './styleCard.css';
 
-const Card = ({ imagem, nome, especialidade, endereco, cidadeEstado, link, icone }) => {
+const Card = ({ image, name, specialty, address, cityState, link, icon }) => {
   return (
     <div className="card">
-      <img src={imagem} alt={`Imagem de ${nome}`} className="card-image" />
+      <img src={image} alt={`Imagem de ${name}`} className="card-image" />
 
       <div className="card-content">
         <div>
-          <h2>{especialidade} {nome}</h2>
+          <h2>{specialty} {name}</h2>
           <hr />
-          <p>{endereco}</p>
-          <p>{cidadeEstado}</p>
+          <p>{address}</p>
+          <p>{cityState}</p>
         </div>
 
         {link && (
           <a href={link} target="_blank" rel="noopener noreferrer" className="icon">
-            <img src={icone} alt="Ícone de ação" />
+            <img src={icon} alt="Ícone de ação" />
           </a>
         )}
       </div>

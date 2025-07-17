@@ -11,9 +11,9 @@ const Home = () => {
     <div>
       <div className="hero-section">
         <Navbar backgroundImage={backgroundImagePrincipal} />
-        <div className="conteiner-palavra">
+        <div className="word-container">
           <div className="static">Saúde</div>
-          <ul className="dinamico">
+          <ul className="dynamic">
             <li>
               <span>Sexual</span>
             </li>
@@ -23,25 +23,25 @@ const Home = () => {
           </ul>
         </div>
         <div>
-          <span className="frase">
+          <span className="phrase">
             Cuide-se, você é a pessoa mais <br /> importante da sua vida{" "}
           </span>
         </div>
       </div>
       <div>
-        <div class="saude-container">
-          <button class="btn-filtrar">FILTRAR</button>
-          <h2 class="saude-titulo">Profissionais da saúde</h2>
+        <div class="health-container">
+          <button class="btn-filter">FILTRAR</button>
+          <h2 class="health-title">Profissionais da saúde</h2>
         </div>
         <div className="p-6 bg-gray-100 min-h-screen flex justify-center items-center">
           <Card
-            imagem={""}
-            nome="Drª Luiza"
-            especialidade="Ginecologista"
-            endereco="Rua mil oitavas, Bela Vista"
-            cidadeEstado="Diamantina - MG"
+            image={""}
+            name="Drª Luiza"
+            specialty="Ginecologista"
+            address="Rua mil oitavas, Bela Vista"
+            cityState="Diamantina - MG"
             link="https://wa.me/5531999999999"
-            icone={whatsappIcon}
+            icon={whatsappIcon}
           />
         </div>
       </div>

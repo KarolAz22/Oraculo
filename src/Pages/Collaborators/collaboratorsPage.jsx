@@ -8,42 +8,42 @@ const Collaborators = () => {
     <div>
       <div className="hero-section">
         <Navbar backgroundImage={backgroundImageCollaborators} />
-        <div className="conteiner-palavra">
+        <div className="word-container">
           <div className="static2">Colaboradores</div>
         </div>
         <div>
-          <span className="frase">
+          <span className="phrase">
             Venha colaborar com a nossa <br /> plataforma{" "}
           </span>
         </div>
       </div>
-      <div className="planos-container">
-        <h2 className="titulo">
+      <div className="plans-container">
+        <h2 className="title">
           Para ser um colaborador entre em contato pelo <br />
           e-mail e trabalhe conosco
         </h2>
 
         <div className="email-box">emailOraculo@email.com</div>
 
-        <div className="plano-card">
+        <div className="plan-card">
           <h3 className="title-green">Conteúdo</h3>
-          <p className="descricao">
+          <p className="description">
             É profissional da saúde ou estudante da área e quer nos ajudar com
             conteúdo?
           </p>
         </div>
 
-        <div className="plano-card">
+        <div className="plan-card">
           <h3 className="title-green">Dúvidas</h3>
-          <p className="descricao">
+          <p className="description">
             É um profissional da saúde? Seja um colaborador na nossa comunidade
             sanando dúvidas dos membros
           </p>
         </div>
 
-        <div className="plano-card">
+        <div className="plan-card">
           <h3 className="title-green">Moderador</h3>
-          <p className="descricao">
+          <p className="description">
             Venha ser moderador da nossa comunidade no discord
           </p>
         </div>

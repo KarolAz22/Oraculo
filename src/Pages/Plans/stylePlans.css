@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
 
-.planos-container {
+.plans-container {
   max-width: 800px;
   margin: 0 auto;
   padding: 40px 20px;
@@ -9,7 +9,7 @@
   font-family: 'Arial', sans-serif;
 }
 
-.titulo {
+.title {
   color: #f55f5f;
   font-size: 30px;
   font-weight: bold;
@@ -27,7 +27,7 @@
   font-size: 20px;
 }
 
-.plano-card {
+.plan-card {
   background-color: #ffe3dd;
   padding: 30px 20px;
   border-radius: 12px;
@@ -42,13 +42,13 @@
   font-family: 'Aclonica';
 }
 
-.descricao {
+.description {
   font-size: 25px;
   color: #F8835E;
   margin-bottom: 12px;
 }
 
-.preco {
+.price {
   font-size: 30px;
   font-weight: bold;
   color: #228B22;

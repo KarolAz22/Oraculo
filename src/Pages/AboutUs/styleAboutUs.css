@@ -1,15 +1,15 @@
 .static3 {
-    color: #F8835E;
-    font-size: clamp(1rem, 10vw, 4rem);
-    margin-top: 20%;
-    font-family: 'Aclonica';
-  }
+  color: #f8835e;
+  font-size: clamp(1rem, 10vw, 4rem);
+  margin-top: 20%;
+  font-family: "Aclonica";
+}
 
 .about-container {
   max-width: 1000px;
   margin: 0 auto;
   padding: 40px 20px;
-  font-family: 'Arial', sans-serif;
+  font-family: "Arial", sans-serif;
   text-align: center;
 }
 
@@ -17,7 +17,7 @@
   font-size: 25px;
   line-height: 1.6;
   margin-bottom: 40px;
-  color:#F8835E
+  color: #f8835e;
 }
 
 .highlight {
@@ -26,7 +26,7 @@
 }
 
 .mission {
-  background-color: #F8835E;
+  background-color: #f8835e;
   padding: 40px 20px;
   border-radius: 10px;
   margin-bottom: 40px;
@@ -51,7 +51,7 @@
   padding: 20px;
   border-radius: 10px;
   width: 220px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
   margin-right: 2%;
 }
 
@@ -63,12 +63,12 @@
 
 .card2 p {
   font-size: 16px;
-  color: #F8835E;
+  color: #f8835e;
   text-align: start;
 }
 
 .team {
-  background-color: #F8835E;
+  background-color: #f8835e;
   padding: 40px 20px;
   border-radius: 10px;
   margin: 40px 0;

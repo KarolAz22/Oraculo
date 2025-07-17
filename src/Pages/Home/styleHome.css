@@ -28,7 +28,7 @@ body {
   height: 100vh;
 }
 
-.conteiner-palavra {
+.word-container {
   position: absolute;
   top: 27%;
   left: 10.5%;
@@ -47,7 +47,7 @@ body {
   margin-right: 10%;
 }
 
-.dinamico {
+.dynamic {
   list-style: none;
   font-family: "Aclonica";
   margin-top: 10%;
@@ -55,18 +55,18 @@ body {
   font-size: clamp(1rem, 10vw, 4rem);
 }
 
-.dinamico li {
+.dynamic li {
   position: absolute;
   opacity: 0;
   animation: fadeWords 4s infinite;
 }
 
-.dinamico li:nth-child(1) {
+.dynamic li:nth-child(1) {
   animation-delay: 1s;
 }
 
 /* Configura o segundo item (Sexual) para aparecer após o primeiro */
-.dinamico li:nth-child(2) {
+.dynamic li:nth-child(2) {
   animation-delay: 2s;
 }
 
@@ -81,7 +81,7 @@ body {
   } /* Palavra visível no meio do ciclo */
 }
 
-.frase {
+.phrase {
   position: absolute; /* Coloca o container de palavras sobre a imagem */
   top: 43%;
   left: 10.5%;
@@ -96,7 +96,7 @@ body {
   z-index: 1; /* Garante que o texto esteja acima da imagem */
 }
 
-.saude-container {
+.health-container {
   background-color: white;
   display: flex;
   align-items: center;
@@ -106,14 +106,14 @@ body {
   margin-left: 3%;
 }
 
-.saude-titulo {
+.health-title {
   font-size: 36px;
   color: #1f8a1f;
   font-weight: 500;
   margin-bottom: 0;
 }
 
-.btn-filtrar {
+.btn-filter {
   border: 2px solid #f26c2b;
   color: #f26c2b;
   padding: 10px 20px;
@@ -124,6 +124,6 @@ body {
   transition: background-color 0.3s;
 }
 
-.btn-filtrar:hover {
+.btn-filter:hover {
   background-color: #fff1e6;
 }

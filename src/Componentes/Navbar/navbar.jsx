@@ -2,10 +2,10 @@ import React, { useState } from 'react';
 import './styleNavbar.css';
 
 const Navbar = ({ backgroundImage }) => {
-  const [menuAberto, setMenuAberto] = useState(false);
+  const [openMenu, setopenMenu] = useState(false);
 
   const toggleMenu = () => {
-    setMenuAberto(!menuAberto);
+    setopenMenu(!openMenu);
   };
   return (
     <nav
@@ -14,13 +14,13 @@ const Navbar = ({ backgroundImage }) => {
         backgroundImage: `url(${backgroundImage})`, // Define a imagem de fundo dinamicamente
       }}
     >
-        <div className="cabecalho">
+        <div className="header">
             <button className="menu-toggle" onClick={toggleMenu}>
                 <span className="hamburger"></span>
                 <span className="hamburger"></span>
                 <span className="hamburger"></span>
             </button>
-            <ul className={`navbar-menu ${menuAberto ? 'ativo' : ''}`}>
+            <ul className={`navbar-menu ${openMenu ? 'ativo' : ''}`}>
                 <li className="navbar-item"><a href="/">Página Inicial</a></li>
                 {/*<li className="navbar-item"><a href="/professionais">Profissionais</a></li>*/}
                 <li className="navbar-item"><a href="/stores">Lojas</a></li>

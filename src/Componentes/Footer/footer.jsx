@@ -10,7 +10,7 @@ const Footer = () => {
           <a href="#">Política de privacidade</a>
         </div>
         <div className="footer-center">
-          © 2023 Copyright: KarolAzevedo
+          © 2025 Copyright: KarolAzevedo
         </div>
         <div className="footer-right">
           <a href="#"><i className="fab fa-facebook-f"></i></a>
