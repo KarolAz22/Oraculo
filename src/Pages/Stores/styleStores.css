@@ -48,7 +48,7 @@ html, body
     font-family: 'Aclonica';
   }
  
-  .frase{
+.frase{
     position: absolute; /* Coloca o container de palavras sobre a imagem */
     top: 45%;
     left: 10.5%;
@@ -78,20 +78,5 @@ html, body
   color: #1f8a1f;
   font-weight: 500;
   margin-bottom: 0;
-}
-
-.btn-filtrar {
-  border: 2px solid #f26c2b;
-  color: #f26c2b;
-  padding: 10px 20px;
-  background-color: transparent;
-  font-weight: bold;
-  font-size: 16px;
-  cursor: pointer;
-  transition: background-color 0.3s;
-}
-
-.btn-filtrar:hover {
-  background-color: #fff1e6;
 }
   

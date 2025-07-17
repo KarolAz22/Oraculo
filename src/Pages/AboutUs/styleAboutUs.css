@@ -1,0 +1,103 @@
+.estatico3 {
+    color: #F8835E;
+    font-size: clamp(1rem, 10vw, 4rem);
+    margin-top: 20%;
+    font-family: 'Aclonica';
+  }
+
+.about-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+}
+
+.about-text {
+  font-size: 25px;
+  line-height: 1.6;
+  margin-bottom: 40px;
+  color:#F8835E
+}
+
+.highlight {
+  color: #228b22;
+  font-weight: bold;
+}
+
+.mission {
+  background-color: #F8835E;
+  padding: 40px 20px;
+  border-radius: 10px;
+  margin-bottom: 40px;
+}
+
+.mission p {
+  font-size: 20px;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.values .value-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.card2 {
+  background-color: #ffe3dd;
+  padding: 20px;
+  border-radius: 10px;
+  width: 220px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  margin-right: 2%;
+}
+
+.card2 h3 {
+  margin-bottom: 15px;
+  color: #228b22;
+  text-align: start;
+}
+
+.card2 p {
+  font-size: 16px;
+  color: #F8835E;
+  text-align: start;
+}
+
+.team {
+  background-color: #F8835E;
+  padding: 40px 20px;
+  border-radius: 10px;
+  margin: 40px 0;
+}
+
+.team p {
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 25px;
+  line-height: 1.6;
+}
+
+.contacts p {
+  font-size: 15px;
+  margin-top: 20px;
+}
+
+.email-box {
+  background-color: #228b22;
+  color: white;
+  font-weight: bold;
+  border-radius: 25px;
+  padding: 10px 20px;
+  display: inline-block;
+  margin: 10px 0;
+}
+
+.white-description {
+  font-size: 25px;
+  color: white;
+  margin-bottom: 12px;
+}

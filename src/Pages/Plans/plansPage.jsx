@@ -27,7 +27,7 @@ const Plans = () => {
         <div className="email-box">emailOraculo@email.com</div>
 
         <div className="plano-card">
-          <h3 className="nome-plano">Plano mensal</h3>
+          <h3 className="title-green">Plano mensal</h3>
           <p className="descricao">
             Com o plano mensal você tem seu anúncio disponível na <br />
             plataforma por 30 dias pelo valor de
@@ -36,7 +36,7 @@ const Plans = () => {
         </div>
 
         <div className="plano-card">
-          <h3 className="nome-plano">Plano semestral</h3>
+          <h3 className="title-green">Plano semestral</h3>
           <p className="descricao">
             Com o plano semestral você tem seu anúncio disponível na <br />
             plataforma por 6 meses pelo valor de
@@ -45,7 +45,7 @@ const Plans = () => {
         </div>
 
         <div className="plano-card">
-          <h3 className="nome-plano">Plano anual</h3>
+          <h3 className="title-green">Plano anual</h3>
           <p className="descricao">
             Com o plano anual você tem seu anúncio disponível na <br />
             plataforma por 1 ano pelo valor de
