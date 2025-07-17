@@ -12,8 +12,8 @@ const Stores = () => {
       <div className="hero-section">
         <Navbar backgroundImage={backgroundImageStores} />
         <div className="conteiner-palavra">
-          <div className="estatico">Market</div>
-          <div className="estatico2">Place</div>
+          <div className="static-stores">Market</div>
+          <div className="static2-stores">Place</div>
         </div>
         <div>
           <span className="frase">

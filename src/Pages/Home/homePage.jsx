@@ -12,7 +12,7 @@ const Home = () => {
       <div className="hero-section">
         <Navbar backgroundImage={backgroundImagePrincipal} />
         <div className="conteiner-palavra">
-          <div className="estatico">Saúde</div>
+          <div className="static">Saúde</div>
           <ul className="dinamico">
             <li>
               <span>Sexual</span>

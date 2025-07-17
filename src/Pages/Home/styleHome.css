@@ -1,19 +1,25 @@
-@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Aclonica&display=swap");
 
-html{box-sizing: border-box;} ::before,*::after{box-sizing: inherit;}
-
-*{
-    margin: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-    list-style: none;
+html {
+  box-sizing: border-box;
+}
+::before,
+*::after {
+  box-sizing: inherit;
 }
 
-html, body 
-{ 
- height: 100vh;
- overflow-x: hidden
+* {
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+html,
+body {
+  height: 100vh;
+  overflow-x: hidden;
 }
 
 .hero-section {
@@ -23,65 +29,72 @@ html, body
 }
 
 .conteiner-palavra {
-    position: absolute;
-    top: 27%;
-    left: 10.5%;
-    display: flex;
-    font-family: 'Titillium Web';
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    justify-content: flex-start;
-    text-align: center;
-    color: white;
-    z-index: 1; /* Garante que o texto esteja acima da imagem */
-  }
-  
-  .estatico {
-    color: #228B22;
-    font-size: clamp(1rem, 10vw, 4rem);
-    margin-right: 10%;
-  }
-  
-  .dinamico {
-    list-style: none;
-    font-family: "Aclonica";
-    margin-top: 10%;
-    padding: 0;
-    font-size: clamp(1rem, 10vw, 4rem);
-  }
-  
-  .dinamico li {
-    position: absolute;
+  position: absolute;
+  top: 27%;
+  left: 10.5%;
+  display: flex;
+  font-family: "Titillium Web";
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  justify-content: flex-start;
+  text-align: center;
+  color: white;
+  z-index: 1; /* Garante que o texto esteja acima da imagem */
+}
+
+.static {
+  color: #228b22;
+  font-size: clamp(1rem, 10vw, 4rem);
+  margin-right: 10%;
+}
+
+.dinamico {
+  list-style: none;
+  font-family: "Aclonica";
+  margin-top: 10%;
+  padding: 0;
+  font-size: clamp(1rem, 10vw, 4rem);
+}
+
+.dinamico li {
+  position: absolute;
+  opacity: 0;
+  animation: fadeWords 4s infinite;
+}
+
+.dinamico li:nth-child(1) {
+  animation-delay: 1s;
+}
+
+/* Configura o segundo item (Sexual) para aparecer após o primeiro */
+.dinamico li:nth-child(2) {
+  animation-delay: 2s;
+}
+
+@keyframes fadeWords {
+  0%,
+  50% {
     opacity: 0;
-    animation: fadeWords 4s infinite;
-  }
-  
-  .dinamico li:nth-child(1) {
-    animation-delay: 1s;
-  }
-  
-  /* Configura o segundo item (Sexual) para aparecer após o primeiro */
-  .dinamico li:nth-child(2) {
-    animation-delay: 2s;
-  }
-  
-  @keyframes fadeWords {
-    0%, 50% { opacity: 0; }   /* Palavra invisível na primeira metade */
-    25%, 75% { opacity: 1; }  /* Palavra visível no meio do ciclo */
-  }
-  .frase{
-    position: absolute; /* Coloca o container de palavras sobre a imagem */
-    top: 40%;
-    left: 10.5%;
-    display: flex;
-    font-family: 'Titillium Web';
-    font-size: clamp(1.5rem, 3vw, 2rem);
-    font-weight: bold;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    justify-content: flex-start;
-    text-align: left;
-    color: white;
-    z-index: 1; /* Garante que o texto esteja acima da imagem */
-  }
+  } /* Palavra invisível na primeira metade */
+  25%,
+  75% {
+    opacity: 1;
+  } /* Palavra visível no meio do ciclo */
+}
+
+.frase {
+  position: absolute; /* Coloca o container de palavras sobre a imagem */
+  top: 43%;
+  left: 10.5%;
+  display: flex;
+  font-family: "Titillium Web";
+  font-size: clamp(1.5rem, 3vw, 2rem);
+  font-weight: bold;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  justify-content: flex-start;
+  text-align: left;
+  color: white;
+  z-index: 1; /* Garante que o texto esteja acima da imagem */
+}
 
 .saude-container {
   background-color: white;
@@ -114,4 +127,3 @@ html, body
 .btn-filtrar:hover {
   background-color: #fff1e6;
 }
-  

@@ -9,7 +9,7 @@ const AboutUs = () => {
       <div className="hero-section">
         <Navbar backgroundImage={backgroundImageAboutUs} />
         <div className="conteiner-palavra">
-          <div className="estatico3">Oráculo</div>
+          <div className="static3">Oráculo</div>
         </div>
         <div>
           <span className="frase">

@@ -10,7 +10,7 @@ const Plans = () => {
       <div className="hero-section">
         <Navbar backgroundImage={backgroundImagePlans} />
         <div className="conteiner-palavra">
-          <div className="estatico2">Parceiros</div>
+          <div className="static2">Parceiros</div>
         </div>
         <div>
           <span className="frase">

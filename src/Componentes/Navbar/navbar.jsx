@@ -26,7 +26,7 @@ const Navbar = ({ backgroundImage }) => {
                 <li className="navbar-item"><a href="/stores">Lojas</a></li>
                 <li className="navbar-item"><a href="/plans">Planos</a></li>
                 <li className="navbar-item"><a href="/about">Sobre-nós</a></li>
-                <li className="navbar-item"><a href="/contact">Contato</a></li>
+                <li className="navbar-item"><a href="/collaborators">Colaboradores</a></li>
             </ul>
         </div>
     </nav>
